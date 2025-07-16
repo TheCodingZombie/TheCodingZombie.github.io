@@ -47,14 +47,7 @@ ul {
   font-size: 16px;
 }
 
-.Links {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.Titles {
+.boxes {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 20px;
