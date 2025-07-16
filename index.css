@@ -19,7 +19,6 @@ h3 {
   text-align: center;
   font-size: 16px;
   word-spacing: 32px;
-  text-align: center;
 }
 
 h4 {
@@ -27,14 +26,13 @@ h4 {
   text-align: center;
   font-size: 20px;
   display: inline;
-  text-align: center;
+
 }
 
 a {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-align: center;
   font-size: 20px;
-  text-align: center;
 }
 
 p {
@@ -47,4 +45,12 @@ ul {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-align: center;
   font-size: 16px;
+}
+
+.Links {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
