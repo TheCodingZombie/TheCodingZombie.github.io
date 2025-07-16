@@ -54,6 +54,8 @@ ul {
   grid-column-gap: 20px;
   grid-auto-flow: 1fr;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 20px;
   display: grid;
 }
