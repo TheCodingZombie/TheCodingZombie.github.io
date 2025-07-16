@@ -60,4 +60,5 @@ ul {
   grid-auto-flow: 1fr;
   justify-content: center;
   padding: 20px;
+  display: grid;
 }
