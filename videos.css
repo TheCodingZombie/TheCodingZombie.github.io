@@ -26,6 +26,7 @@ h4 {
 
 a {
   font-size: 20px;
+  padding: 16px;
 }
 
 p {
@@ -44,8 +45,12 @@ ul {
   background-color: lightsalmon;
 }
 
-.green {
+.bluegreen {
   background-color: lightseagreen;
+}
+
+.green {
+  background-color: lightgreen;
 }
 
 .blue {
