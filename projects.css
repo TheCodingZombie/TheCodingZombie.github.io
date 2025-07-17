@@ -54,7 +54,7 @@ ul {
 
 .project {
     max-width: 640px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
