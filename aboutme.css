@@ -1,5 +1,5 @@
 body {
-  background-color: magenta;
+  background-color: lightpink;
   text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   line-height: 20px;
@@ -37,9 +37,7 @@ ul {
 }
 
 .box {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    background-color: aquamarine;
+    align-self: center;
     box-sizing: border-box;
 }
