@@ -53,27 +53,28 @@ ul {
 }
 
 .row {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 2fr;
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
-    grid-auto-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: grid;
 }
 
 .project {
-    max-width: 800px;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-between;
+  max-width: 800px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
 }
 
 .description {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: flex;
+  max-width: 1400px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
 }
