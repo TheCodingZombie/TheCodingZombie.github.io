@@ -50,11 +50,14 @@ ul {
     align-items: center;
     padding: 20px;
     display: grid;
+    max-width: 1600px;
 }
 
 .project {
     max-width: 800px;
-    display: block;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
 }
 
 .description {
