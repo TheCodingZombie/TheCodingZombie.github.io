@@ -40,6 +40,18 @@ ul {
   background-color: lightcoral;
 }
 
+.red {
+  background-color: lightsalmon;
+}
+
+.green {
+  background-color: lightseagreen;
+}
+
+.blue {
+  background-color: lightsteelblue;
+}
+
 .row {
     grid-template-rows: auto;
     grid-template-columns: 1fr 2fr;
@@ -50,7 +62,7 @@ ul {
     align-items: center;
     padding: 20px;
     display: grid;
-    max-width: 1600px;
+    max-width: 1200px;
 }
 
 .project {
