@@ -2,6 +2,7 @@ body {
   background-color: lightblue;
   text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 20px;
 }
 
 h1 {
@@ -28,7 +29,7 @@ a {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 ul {
