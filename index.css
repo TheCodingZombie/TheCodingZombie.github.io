@@ -47,6 +47,8 @@ ul {
   padding: 20px;
   display: grid;
   align-self: center;
+  margin-left: 150px;
+  margin-right: auto;
 }
 
 .box {
