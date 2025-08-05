@@ -21,12 +21,11 @@ h3 {
 h4 {
   font-size: 20px;
   margin: 0px;
-  padding: 0px;
+  padding: 4px;
 }
 
 a {
   font-size: 20px;
-  padding: 4px;
 }
 
 p {
@@ -76,7 +75,7 @@ ul {
   flex-direction: column; 
   justify-content: space-between;
   margin: 0px;
-  padding: 0px;
+  padding: 4px;
 }
 
 .description {
