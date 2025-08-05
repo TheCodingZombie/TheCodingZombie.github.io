@@ -21,7 +21,7 @@ h3 {
 h4 {
   font-size: 20px;
   display: inline;
-  padding: 32px;
+  padding: 4px;
 }
 
 a {
@@ -78,7 +78,7 @@ ul {
   display: flex; 
   flex-direction: column; 
   justify-content: space-between;
-  margin: 10px;
+  margin: 4px;
 }
 
 .description {
