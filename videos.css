@@ -61,6 +61,10 @@ ul {
   background-color: lightslategray;
 }
 
+.purple {
+  background-color: plum;
+}
+
 .row {
   grid-template-rows: auto;
   grid-template-columns: 1fr 2fr;
