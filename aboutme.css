@@ -247,7 +247,6 @@ body {
 .topnav a.active {
   border-radius: 25px;
   border: 2px solid #73AD21;
-  color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */

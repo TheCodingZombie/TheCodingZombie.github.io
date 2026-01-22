@@ -107,6 +107,7 @@ img {
 
 .white {
   background-color: #f1f1f1;
+  color: black;
 }
 
 .limegreen {
@@ -130,7 +131,8 @@ img {
 }
 
 .gold {
-  background-color: #E0CF51;
+  background-color: #b6a31a;
+  color: #f1f1f1;
 }
 
 .roundedsection {
@@ -154,6 +156,16 @@ img {
   max-width: fit-content;
   font-size: 24px;
   border-radius: 25px;
+}
+
+.linkbutton:hover{
+  padding: 20px;
+  margin: 15px;
+  max-width: fit-content;
+  font-size: 24px;
+  border-radius: 25px;
+  background-color: #ddd;
+  color: black;
 }
 
 .bottombar {
@@ -222,7 +234,6 @@ img {
 .topnav a.active {
   border-radius: 25px;
   border: 2px solid #73AD21;
-  color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
