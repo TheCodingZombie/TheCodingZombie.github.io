@@ -5,22 +5,32 @@
         <title>About Me</title>
     </head>
     <body>
+        <div class="topnav" id="myTopnav">
+            <a href="index">Home</a>
+            <a href="aboutme" class="active">About</a>
+            <a href="projects">Projects</a>
+            <a href="videos">Videos</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div> 
+        <script src="index.js"></script> 
+
+        <div class="padding"></div>
         <h1>About Me!</h1>
-        <div class="box">
-            <p>I'm TheSocialZombie or simply Zombie!
+        <div class="box darkslategrey">
+            <p>I'm Lance, or Lapis!
                 <br>I'm an aspiring game dev who also dabbles in digital art, video editing/production, and music!
-                <br>I am going to college in America for my degree in Computer Science, and this website was created to show off some of my skills!
+                <br>I am going to college in America for my degree in Computer Science, <br>and this website was created to show off some of my skills!
                 <br><br>From the very start, I have had a fascination in how video games function and how they are made.
                 <br>My father introduced me to coding as a child and I have stayed with it ever since!
                 <br><br>I primarily code in Godot, though I have experience with Unity and Unreal as well!
                 <br>I also have experience in languages like Python, Java, C++, and more!
-                <br><br>If you'd like to reach out, I have several places you can find me in the linktree below!
-                <br>Thanks for reading!
             </p>
         </div>
         <br>
 
-        <div class="vbox roundedborder">
+        <div class="vbox roundedborder" style="max-width: 80%; align-self: center; margin:auto;">
             <h2>My Skills</h2>
             <div class="hbox">
                 <h3>Coding Languages Learned:</h3>
@@ -31,8 +41,75 @@
                 <p style="font-size:16px;">Adobe Suite, Microsoft Office, Windows (7,8,10,11), Linux/Unix</p>
             </div>
         </div>
+        
+        <div class="vbox squaresection aquamarine list">
+            <h2>My Experience</h2>
+            <div class="hbox list-item">
+                <img src="blackculvers.svg" alt="Culvers" style="max-width: 256px; min-width: 64px;">
+                <div class="vbox list" style="min-width: 40%;">
+                    <h3 class="list-item">Team Member - Culver's</h3>
+                    <p class="list-item">Mar 2022 - May 2023</p>
+                    <ul>
+                        <li>Customer Service</li>
+                        <li>POS Interaction</li>
+                        <li>Food Delivery</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hbox list-item">
+                <img src="walmartblack.svg" alt="Walmart" style="max-width: 256px; min-width: 64px;">
+                <div class="vbox list" style="min-width: 40%;">
+                    <h3 class="list-item">Team Member - Walmart</h3>
+                    <p class="list-item">Oct 2023 - Apr 2024</p>
+                    <ul>
+                        <li>Direct Communication</li>
+                        <li>Customer Service</li>
+                        <li>Organization</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hbox list-item">
+                <img src="uicblack.svg" alt="UIC Undergrad" style="max-width: 512px; min-width: 64px;">
+                <div class="vbox list" style="min-width: 50%;">
+                    <h3 class="list-item">Teaching Assistant - CS 377 (Ethical Issues in Computing)</h3>
+                    <p class="list-item">Jan 2025 - Present</p>
+                    <ul>
+                        <li>Direct Communication</li>
+                        <li>Time Management</li>
+                        <li>Scope Management</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="margin=10px; font-size: 8px;">
+                Culver's Logo property of Culver Franchising System, LLC. Walmart Logo property of Walmart Inc. UIC Logo property of University of Illinois Chicago. I do not claim ownership of the logos provided.
+            </p>
+        </div>
 
-        <a href="https://linktr.ee/TheSocialZombie">All my Links!</a>
-        <a href="index">Back to Main</a>
+        <div class="hbox gold roundedsection">
+            <h2>Where You Can Find Me:</h2>
+            <div class="vbox list">
+                <div class="hbox list-item">
+                    <a href="https://github.com/TheCodingZombie"><img src="github.svg" alt="Github"></a>
+                    <h3>Coding and Pushing on Github.</h3>
+                </div>
+                <div class="hbox list-item">
+                    <a href="https://thesocialzombie.itch.io/"><img src="itchio.svg" alt="Itch.io"></a>
+                    <h3>Participating in Game Jams and Uploading Progress Reports in Itch.io.</h3>
+                </div>
+                <div class="hbox list-item">
+                    <a href="https://www.linkedin.com/in/GuevarraLance/"><img src="linkedin.svg" alt="LinkedIn"></a>
+                    <h3>Providing insight in my professional life on LinkedIn.</h3>
+                </div>            
+            </div>
+        </div>
+
+        <div class="darkslategrey bottombar">
+            <a href="https://github.com/TheCodingZombie"><img src="github.svg" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/GuevarraLance/"><img src="linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://thesocialzombie.itch.io/"><img src="itchio.svg" alt="Itch.io"></a>
+            <a href="https://linktr.ee/TheSocialZombie"><img src="linktree.svg" alt="Linktree"></a>
+            <a href="mailto:thesocialzombiebusiness@gmail.com"><img src="email.svg" alt="Email Me!"></a>
+            <a href="https://icons8.com/icons" class="right">Icons by Icons8</a>
+        </div>
     </body>
 </html>

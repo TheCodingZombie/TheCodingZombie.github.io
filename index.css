@@ -47,8 +47,8 @@ img {
 
 .hbox h3 {
   font-size: 20px;
+  align-self: center;
 }
-
 
 .hbox .headshot {
   margin: 80px;
@@ -159,6 +159,7 @@ img {
 .bottombar {
   bottom: 0;
   font-size: 30px;
+  overflow: hidden;
   display: flex;
   justify-content: flex-start;
 }
@@ -171,7 +172,26 @@ img {
   font-size: 16px;
 }
 
- /* Add a black background color to the top navigation */
+.bottombar a {
+  color: #f1f1f1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+.bottombar .right {
+  margin-left: auto;
+  padding-right: 16px;
+}
+
+.bottombar img {
+  max-width: 50px;
+  padding: 8px 8px;
+}
+
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: darkslategrey;
   overflow: hidden;
