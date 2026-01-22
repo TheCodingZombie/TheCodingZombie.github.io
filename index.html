@@ -5,35 +5,65 @@
         <title>TheSocialZombie</title>
     </head>
     <body>
-        <h1>Welcome to TheCodingZombie's Website!</h1>
-        <h2>My name is TheCodingZombie, though you may also know me as:</h2>
-         <ul>
-            <li>TheSocialZombie</li>
-            <li>Zombie</li>
-            <li>Lapis!</li>
-        </ul>
-        <h2>You may also recognize my game dev "company", Undead Games!</h2>
-        <h2>This page is used to show off my projects, such as:</h2>
-        <h3>Videos,     Games,       Programs,        and More!</h3> 
-        <h2>Click on the links below to learn more!</h2>
-        <div class="boxes">
-            <div class="box">
-                <a href="aboutme">
-                    <h4>About Me!</h4>
-                </a>
-            </div>
-            <div class="box">
-                <a href="projects">
-                    <h4>Project Portfolio</h4>
-                </a>
+         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-            </div>
-            <div class="box">
-                <a href="videos">
-                    <h4>Video Portfolio</h4>
-                </a>
+        <div class="topnav" id="myTopnav">
+            <a href="index" class="active">Home</a>
+            <a href="aboutme">About</a>
+            <a href="projects">Projects</a>
+            <a href="videos">Videos</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div> 
+        <script src="index.js"></script> 
 
+        <div class="hbox white">
+            <div class="headshot"></div>
+            <div class="vbox">
+                <h1>Hello!</h1>
+                <h2>My name is <strong>Lapis</strong>!</h2>
+                <ul>
+                    <li>Software Engineer</li>
+                    <li>Multimedia Editor</li>
+                    <li>Creative Designer</li>
+                </ul>
+                <p>Scroll to learn more about me!</p>
             </div>
+        </div>
+        
+        <div class="vbox forestgreen roundedsection">
+            <h2>"Creating experiences everyone can enjoy."</h2>
+            <p>Check out some of my best projects!</p>
+            <div class="hbox" style="margin:0px;">
+                <div class="vbox">
+                    <h2>Rogue's War</h2>
+                    <p>A card game inspired by Kingdom Hearts and the classic card game, War.</p>
+                </div>
+                <iframe frameborder="0" src="https://itch.io/embed/3788808" width="1000" height="167"><a href="https://thesocialzombie.itch.io/rogueswar">Rogue's War</a></iframe>
+            </div>
+            <div class="hbox" style="margin:0px;">
+                <iframe frameborder="0" src="https://itch.io/embed/3776666" width="1000" height="167"><a href="https://thesocialzombie.itch.io/14-days-to-loop">14 Days to Loop</a></iframe>
+                <div class="vbox">
+                    <h2>14 Days to Loop</h2>
+                    <p>A farming sim with a time-looping twist.</p>
+                </div>
+            </div>
+            <div><a href="projects" class="linkbutton limegreen">More Projects</a></div>
+        </div>
+
+        <div class="hbox gold squaresection">
+            <div class="vbox">
+                <h2>Like what you see?</h2>
+                <p>Contact me for further information!</p>
+                <div><a href="aboutme" class="linkbutton darkslategrey">Contact Me</a></div>
+            </div>
+        </div>
+
+        <div class="darkslategrey bottombar">
+            <p>thesocialzombiebusiness@gmail.com</p>
+            <p>@thesocialzombi1</p>
         </div>
     </body>
 </html>
