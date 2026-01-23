@@ -28,7 +28,7 @@ body {
 }
 
 .hbox h2 {
-  font-size: 32px;
+  font-size: 28px;
   align-self: center;
   justify-self: center;
   padding-left: 20px;
@@ -102,7 +102,7 @@ body {
 }
 
 .vbox li {
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px;
   padding-left: 0px;
   text-align: left;
