@@ -107,6 +107,11 @@ img {
   padding-top: 30px;
 }
 
+.vbox h3 {
+  font-size: 2vw;
+  padding-top: 30px;
+}
+
 .vbox li {
   font-size: 2vw;
   padding: 10px;
@@ -290,6 +295,12 @@ img {
   }
 
   .vbox h2 {
+    font-size: 6vw;
+    padding-top: 30px;
+    word-wrap: break-word;
+  }
+  
+  .vbox h3 {
     font-size: 4vw;
     padding-top: 30px;
   }
@@ -303,6 +314,7 @@ img {
     font-size: 3vw;
     word-wrap: break-word;
   }
+
   .linkbutton {
     padding: 20px;
     margin: 15px;
