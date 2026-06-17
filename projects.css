@@ -68,6 +68,11 @@ ul {
   color: white;
 }
 
+.black {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
 .row {
   grid-template-rows: auto;
   grid-template-columns: 1fr 2fr;

@@ -154,6 +154,16 @@ a {
   max-width: 256px;
 }
 
+.project iframe {
+  justify-self: center;
+  margin: 0 auto;
+}
+
+.black {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
 .description {
   max-width: auto;
   flex-direction: row;
