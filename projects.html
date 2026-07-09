@@ -2,26 +2,133 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>TheSocialZombie</title>
-      <script type="module" crossorigin src="/assets/main-AvBwI-mu.js"></script>
-      <link rel="modulepreload" crossorigin href="/assets/FadeSection-BsM18IKP.js">
-      <link rel="stylesheet" crossorigin href="/assets/main-CVDS2rhq.css">
+        <title>Zombie's Projects</title>
+      <link rel="stylesheet" crossorigin href="/assets/projects-D8U2Q3WN.css">
     </head>
     <body>
         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <div class="topnav" id="myTopnav">
-            <a href="index" class="active">Home</a>
+            <a href="index">Home</a>
             <a href="aboutme">About</a>
-            <a href="projects">Projects</a>
+            <a href="projects" class="active">Projects</a>
             <a href="videos">Videos</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div> 
+        <script src="index.js"></script> 
 
-        <div id="index"></div>
+        <div class="padding"></div>
+
+        <h1>Current and Past Projects</h1>
+
+        <div class="roundedsection row gold">
+            <div class="project">
+                <iframe frameborder="0" src="https://itch.io/embed/3788808" max-width="100%" width="auto" height="167"><a href="https://thesocialzombie.itch.io/rogueswar">Rogue's War by TheSocialZombie</a></iframe>
+                <h4>Rogue's War</h4>
+                <p>(Current)</p>
+            </div>
+            <div class="description">
+                <p>
+                    Rogue's War is a deck-builder roguelike, with a combat-system based on the classic card game, War.
+                    <br>Battle through a map of three encounters that culminates in a boss battle.
+                    <br>Beat seven boss battles and defeat the final Boss to win the run!
+                    <br>Don't worry if you lose, though. You gain XP from each run, which unlocks new decks, modifiers, and upgrades for future runs!
+                    <br><br>Rogue's War is currently preparing for release! Please check the itch.io page for any updates!
+                    <br><br><a href="https://www.youtube.com/watch?v=g9Uq2i9xGAc">Watch the official playtest trailer here!</a>
+                </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="roundedsection row forestgreen">
+            <div class="project">
+                <iframe frameborder="0" src="https://itch.io/embed/3776666" max-width="100%" width="auto" height="167"><a href="https://thesocialzombie.itch.io/14-days-to-loop">14 Days to Loop by TheSocialZombie</a></iframe>
+                <h4>14 Days to Loop</h4>
+                <p>(August 2025)</p>
+            </div>
+            <div class="description">
+                <p>
+                    14 Days to Loop is a small farming sim where you take care of a tiny farm on a small island... but there's a catch...
+                    <br>Some mystical force is keeping you here, looping time every two weeks until you make enough money to escape. 
+                    <br>Loops rewind everything back to the beginning, removing all currently growing crops and reverting the land 
+                    <br>back to its grassy state.
+                </p>
+            </div>
+        </div>
+    
+        <div class="roundedsection row darkslategrey">
+            <div class="project">
+                <iframe frameborder="0" src="https://itch.io/embed/4648974?linkback=true&amp;bg_color=26b928&amp;fg_color=ffffff&amp;link_color=c26d00" max-width="100%" width="auto" height="167"><a href="https://thesocialzombie.itch.io/plant-sitters">Plant Sitters by Undead Games / TheSocialZombie</a></iframe>
+                <h4>Plant Sitters</h4>
+                <p>(Current)</p>
+            </div>
+            <div class="description">
+                <p>
+                    Plant Sitters is a mobile idle game, revolving around taking care of your own plants as well as taking care of other people's plants for money.
+                    <br>It currently has 40 different plant types, a shop system, and various passive abilities that your own plants give your garden!
+                    <br>It is meant to be a relaxing experience. Something you check in daily for a few minutes on your commute to work or school!
+                    <br><br>Plant Sitters is currently in early access! Please check the itch.io page for any updates!
+                </p>
+            </div>
+        </div>
+
+        <div class="roundedsection row aquamarine">
+            <div class="project">
+                <a href="https://github.com/TheCodingZombie/PMCSBalatro"><h4>ColorSplashed</h4></a>
+                <p>(Current)</p>
+            </div>
+            <div class="description">
+                <p>
+                    PMCSBalatro, more commonly referred to as ColorSplashed, is a mod for the popular roguelike game, Balatro.
+                    <br>It adds several new Jokers based on Paper Mario: Color Splash's enemies, as well as various other features.
+                    <br>You can find all the new features in its public repository!
+                    <br><br>As Balatro is a game entirely coded in Lua, so too was this mod.
+                    <br>This mod allowed me to learn Lua and feel comfortable with its syntax, all while giving my favorite game a fresh coat of paint!
+                    <br><br><a href="https://www.youtube.com/watch?v=x3e-PcLStYk">Watch the official trailer here!</a>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="roundedsection row white">
+            <div class="project">
+                <a href="https://github.com/TheCodingZombie/TypingTutor"><h4>Typing Tutor</h4></a>
+                <p>(March 2023)</p>
+            </div>
+            <div class="description">
+                <p>
+                    Typing Tutor was a C++ Project that would teach you how to type.
+                    <br>It functioned entirely in the command line, but has its own rudimentary text-based UI.
+                    <br>It featured a large dictionary of words and allowed you to practice typing by spelling out those words.
+                    <br>You could either practice with some commonly mispelled words, or you could practice with any word from the dictionary!
+                    <br>It also allowed you to search for a word from said dictionary.
+                    <br><br>This project was meant to demonstrate file usage in C++ as well as binary search algorithms.
+                    <br>This project is just a showcase and will not be updated further.
+                </p>
+            </div>
+        </div>
+
+        <div class="roundedborder row">
+            <div class="project">
+                <a href="index"><h4>Portfolio Website</h4></a>
+                <p>(Current)</p>
+            </div>
+            <div class="description">
+                <p>
+                    This website as a whole is one of my projects, and a very iterative one at that!
+                    <br>It started out just being a simple HTML and CSS project,
+                    <br>but as I got more and more comfortable with React, I started
+                    <br>adding React elements to it as well!
+                    <br><br>Of course, this website will continue to evolve and grow
+                    <br>as I do, and I hope you had fun exploring!
+                </p>
+            </div>
+        </div>
+
+        <div class="padding"></div>
 
         <div class="darkslategrey bottombar">
             <a href="https://github.com/TheCodingZombie"><img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3c!--%20Generator:%20visioncortex%20VTracer%200.6.4%20--%3e%3csvg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20width='100'%20height='100'%3e%3cpath%20d='M0%200%20C3.31%200.31%203.31%200.31%207%201%20C7.41%201.5%207.82%202%208.24%202.52%20C11.08%204.91%2014.33%204.47%2017.88%204.44%20C18.58%204.46%2019.29%204.48%2020.02%204.5%20C25.06%204.49%2027.34%203.35%2031%200%20C33.81%20-0.25%2033.81%20-0.25%2036%200%20C37.53%203.07%2036.97%206.12%2036.84%209.49%20C37.01%2012.21%2037.77%2013.61%2039%2016%20C39.68%2020.78%2039.52%2024.82%2037.56%2029.25%20C34.15%2032.92%2030.27%2035.43%2026%2038%20C26.48%2038.69%2026.96%2039.39%2027.46%2040.11%20C29.19%2043.36%2029.49%2045.65%2029.69%2049.31%20C29.75%2050.38%2029.82%2051.45%2029.89%2052.55%20C29.94%2053.76%2029.94%2053.76%2030%2055%20C30.68%2054.63%2031.35%2054.25%2032.05%2053.87%20C32.94%2053.4%2033.83%2052.92%2034.75%2052.44%20C35.63%2051.96%2036.51%2051.49%2037.42%2051%20C40.21%2049.92%2041.27%2049.93%2044%2051%20C44.75%2052.75%2044.75%2052.75%2045%2055%20C40.73%2060.94%2032.8%2063.34%2026%2065%20C11.43%2066.21%200.7%2063.28%20-10.94%2054.55%20C-17.07%2049.13%20-22.7%2039.2%20-24%2031%20C-24.63%2020.66%20-24.78%2010.42%20-18%202%20C-15.52%202.99%20-15.52%202.99%20-13%204%20C-13.44%207.58%20-13.96%2010.87%20-15.06%2014.31%20C-17.41%2023.54%20-16.11%2032.3%20-11.56%2040.64%20C-7.15%2047.47%20-1.79%2052.4%206%2055%20C6.33%2053.68%206.66%2052.36%207%2051%20C6.09%2050.92%205.19%2050.84%204.25%2050.75%20C0.47%2049.88%20-0.63%2049.02%20-3%2046%20C-4.64%2043.02%20-5.93%2040.22%20-7%2037%20C-3.43%2037.31%20-1.5%2038.24%201.12%2040.56%20C3.75%2043.32%203.75%2043.32%207%2043%20C8.72%2040.56%208.72%2040.56%2010%2038%20C9.4%2037.64%208.79%2037.27%208.17%2036.9%20C-0.63%2031.36%20-0.63%2031.36%20-3%2026%20C-3.74%2020.14%20-2.93%2015.54%20-1%2010%20C-0.87%207.33%20-0.96%204.68%20-1%202%20C-0.67%201.34%20-0.34%200.68%200%200%20Z%20'%20fill='%23FFFFFF'%20transform='translate(32,27)'/%3e%3cpath%20d='M0%200%20C9.99%206.43%2015.65%2015.04%2019.49%2026.23%20C21%2035.75%2020.95%2047.4%2015.21%2055.52%20C14.75%2056.09%2014.29%2056.66%2013.81%2057.25%20C12.49%2056.92%2011.17%2056.59%209.81%2056.25%20C8.79%2052.43%208.88%2050.25%2010.25%2046.56%20C13.37%2036.79%2011.94%2028.56%207.81%2019.25%20C3.39%2011.24%20-3.53%206.28%20-12.12%203.38%20C-20.9%201.1%20-28.79%201.89%20-37.19%205.25%20C-38.18%205.91%20-39.17%206.57%20-40.19%207.25%20C-43.38%207.38%20-43.38%207.38%20-46.19%207.25%20C-46.52%205.6%20-46.85%203.95%20-47.19%202.25%20C-34.92%20-10.02%20-13.92%20-7.81%200%200%20Z%20'%20fill='%23FFFFFF'%20transform='translate(72.1875,13.75)'/%3e%3c/svg%3e" alt="Github"></a>
