@@ -11,7 +11,6 @@ export default defineConfig({
         main: resolve(import.meta.dirname, 'index.html'),
         aboutme: resolve(import.meta.dirname, 'aboutme.html'),
         projects: resolve(import.meta.dirname, 'projects.html'),
-        videos: resolve(import.meta.dirname, 'videos.html'),
       }
     }
   }
